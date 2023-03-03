@@ -13,9 +13,9 @@
   }
 }
 
-.App-header {
+.App{
   background-color: #282c34;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,96 @@
   to {
     transform: rotate(360deg);
   }
+}
+.IdCard{
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem;
+}
+.IdCard div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.IdCard div p{
+  margin: 0;
+}
+.IdCard picture, .IdCard img{
+  height: 8rem;
+}
+.greetings{
+  border: 1px solid black;
+  font-size: 1.5rem;
+  margin: 1rem;
+  padding: .5rem;
+  text-align: start;
+}
+
+.creditCard {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  height: 10rem;
+  justify-content: space-evenly;
+  border-radius: 8px;
+  margin: 1rem;
+}
+.logoCC{
+  text-align: end;
+}
+.logoCC picture, .logoCC img{
+  height: 1rem;
+  padding-right: .7rem;
+}
+.numberCC{
+  font-size: 2rem;
+}
+.infoCC{
+  text-align: start;
+  padding-left: 1rem;
+}
+.infoCC span{
+  padding-left: 1rem;
+}
+
+span.checked {
+  color: yellow;
+}
+
+.driverCard {
+  background-color: darkblue;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  align-items: center;
+}
+.driverCard picture{
+  height: 7rem;
+  width: 7rem;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
+.driverCard img {
+  height: 100%;
+}
+.driverInfo{
+  color:white;
+}
+.dicePic {
+  margin: 1rem;
+  height: 4rem;
+  width: 4rem;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+.diceImg {
+  height: 100%;
+  width: 100%;
 }
